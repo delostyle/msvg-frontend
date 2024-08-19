@@ -123,21 +123,23 @@ font-size: 60px;
 }
 
 .hero h2 {
-   font-size: 56px;
-    margin-bottom: 20px;
-    color: #00e0b1;
-    font-family: Poppins;
-    font-weight: 600;
-    text-align: center;
-    line-height: 77px;
+   font-size: 56px !important;
+    margin-bottom: 20px !important;
+    color: #00e0b1 !important;
+    font-family: 'Poppins' !important;
+    font-weight: 600 !important;
+    text-align: center !important;
+    line-height: 77px !important;
+    margin-right: 200px;
 }
 
 .hero p {
-   font-size: 18px;
+   font-size: 15px;
     /* margin-bottom: 20px; */
-    line-height: 26px;
+    line-height: 65px;
     text-align: center;
     font-family: Poppins;
+    color: white;
 }
 
 .cta-button {
@@ -447,6 +449,7 @@ footer {
 }
 
 .services-section h2 {
+    left:0;
     font-size: 80px;
     line-height: 150px;
     font-family: 'Poppins';
@@ -692,8 +695,10 @@ ul.icon-lists svg path{
     display: flex;
     flex-direction: column;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
 
 }
+
 
 .card-image img {
     width: 100%;
@@ -1345,6 +1350,11 @@ p {
 .newsletter-section {
     background-image:  url('../img/frame51.png');
     color: white;
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+   
+    height: 370px;
 }
 
 .newsletter-title {
@@ -1372,14 +1382,25 @@ p {
 
 .subscribe-form input[type="email"] {
     max-width: 400px;
+    background: transparent;
 }
 
 .footer-section {
+    height: 450px;
     background-color: #f5f5f5;
     padding: 2em 0;
     background-image: url(../img/frame98.png);
-    background-repeat: unset;
-    background-size: 1904px 443px;
+    background-repeat: no-repeat; 
+     background-size: 1904px 443px;
+    /* background-size:  cover; 
+    background-position: center; 
+    
+     */
+     background-repeat: repeat;
+}
+
+.container-fluid {
+    margin: 30px 40px 30px 10px;
 }
 
 .footer-about {
@@ -1431,12 +1452,21 @@ p {
     background-color: #009688;
     color: white;
     padding: 1em 0;
+    display: flex;
+    justify-content: space-between;
 }
 
 .footer-bottom a {
     color: white;
     text-decoration: none;
     margin: 0 10px;
+}
+.footer-bottom p {
+    color: white;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
 }
 
 .footer-bottom a:hover {
@@ -1453,12 +1483,14 @@ p {
     width: 100%;
     padding: .375rem .75rem;
     font-size: 16px !important;
-    line-height: 1.5;
-    color: #009688 !important;
-    background-color: #fff;
-    background-image:  url('../img/frame51.png') !important;
+     /* line-height: 1.5; */
+    color: #ddeeec !important; 
+    /* background-color: #fff; */
+    background:transparent;
+   
     background-clip: padding-box;
     border: 2px solid #009688 !important;
+ 
     /* border-radius: .25rem; */
     transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
@@ -1470,6 +1502,8 @@ p {
     line-height: 27px;
 
 }
+
+
 .subscribe {
     color: #fff !important;
     background-color: #009688 !important;
@@ -1480,12 +1514,26 @@ p {
     width: 176px;
     border-radius: 0 !important;
 }
+.servicess {
 
-.servicess p{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+ 
+    
+}
+.servicess p {
     font-family: 'Poppins';
     font-weight: 500;
     font-size: 16px;
+    text-align:start ;
 }
+
+#service1 p{
+    margin-left: 180px;
+}
+  
+
 
 .social-icons img{
     width: 35px;

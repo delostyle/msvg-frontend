@@ -151,6 +151,7 @@
   overflow: hidden;
   position: relative;
   top: -80px;
+margin-bottom: -160px;
 
 
 }
@@ -323,7 +324,7 @@
 }
 .carousel .carousel-inner {
   padding-bottom: 50px;
-
+z-index: 0;
   display: flex;
   justify-content: center;
 }
