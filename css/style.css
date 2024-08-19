@@ -662,7 +662,7 @@ ul.icon-lists svg path{
 }
 
 .case-study-header h1 {
-    font-size: 70px;
+    font-size: 90px;
     color: rgba(0, 0, 0, 0.1);
     text-transform: uppercase;
     margin: 0;
@@ -672,9 +672,13 @@ ul.icon-lists svg path{
 }
 
 .case-study-header h2 {
-    font-size: 24px;
-    color: #4bbfc5;
-    margin-top: -10px;
+    font-size: 48px !important;
+    color: #4bbfc5 !important;
+    margin-top: -10px !important;
+    left: 0px !important;
+    z-index: 1;
+    font-weight: 400 !important;
+    position: relative;
 }
 
 .case-study-header .highlight {
@@ -719,6 +723,7 @@ ul.icon-lists svg path{
     font-size: 32px;
     font-weight: 600;
     font-family: 'Poppins';
+    
 }
 
 .card-content p {
@@ -728,6 +733,8 @@ ul.icon-lists svg path{
     line-height: 17px;
     font-weight: 400;
     font-family: 'Poppins';
+    color: #ffff;
+    text-align: justify;
 
 }
 
@@ -1198,7 +1205,7 @@ h3 {
     font-size: 1.25rem;
     font-weight: 600;
     color: #16a34a;
-    text-align: center;
+    /* text-align: center; */
 }
 
 h3 span {
