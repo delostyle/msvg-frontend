@@ -2,17 +2,24 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   color: #fff;
 }
 
-header {
+
+/* header {
   background-color: #f3f3f3;
   padding: 20px;
   position: fixed;
   width: 100%;
   z-index: 2;
-}
+} */
+ header {
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ddd;
+    overflow: hidden; /* Prevent overflow issues */
+  }
+
 
 .footer-container {
   display: flex;
@@ -224,6 +231,8 @@ header {
   .hero p {
     font-size: 1em;
   }
+  
+  
 }
 
 .navbar {
@@ -1713,7 +1722,19 @@ p {
   .footer-section .row {
     text-align: center;
   }
+  
 }
+@media (min-width: 350px) and (max-width: 500px) {
+ 
+  .hero h2 {
+    margin-bottom: 20px !important;
+    color: #00e0b1 !important;
+    font-family: "Poppins" !important;
+    font-weight: 600 !important;
+    text-align: center !important;
+  }
+}
+
 .form-control {
   display: block;
   width: 100%;
@@ -1877,7 +1898,86 @@ left: 0px;
   /* border-radius: 50%; */
   object-fit: cover;
   width: 337px;
-  height: 309px;
+  height: 297px;
+}
+.tech-text {
+  font-size: 44px;
+  color: rgba(0, 0, 0, 0.1);
+  text-transform: uppercase;
+  margin: 0;
+  font-family: "Poppins";
+  font-weight: 900;
+  /* line-height: 70px; */
+}
+.case-study-button {
+  height: 56px;
+  display: block;
+  margin-top: 20px;
+  padding: 10px;
+  gap: 10px;
+  background-color: #ffffff52;
+  color: white;
+  border-radius: 5px;
+  border: 1px solid;
+  width: 332px;
+  font-family: "Poppins";
+  text-align: center;
+  font-size: 18px;
+  text-decoration: auto;
+  margin: auto;
+}
+.image-section {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: flex-end;
+  width: 100%;
+  background-color: #e2ded582;
 }
 
+.technologies .emp {
+  font-size: 34px;
+  color: #009688;
+  font-weight: 500;
+  font-family: "Poppins";
+  line-height: 36px;
+  width: 100%;
+}
+.case-study-header h2 {
+  font-size: 29px !important;
+  color: #4bbfc5 !important;
+  margin-top: -10px !important;
+  left: 0px !important;
+  z-index: 1;
+  font-weight: 400 !important;
+  position: relative;
+  line-height: 39px !important;
+}
+.case-study-header .highlight {
+  color: #3b4bbf;
+  font-weight: 500;
+  font-size: 28px;
+  font-family: "Poppins";
+  line-height: 43px;
+}
+.newsletter-title {
+  font-size: 50px;
+  font-weight: 700;
+  color: #ffffff82;
+  font-family: "Poppins";
+}
+.newsletter-subtitle {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 1em;
+  color: #65fff1;
+  font-family: "Poppins";
+}
+.newsletter-subtitle1 {
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 1em;
+  color: #ffffff;
+  font-family: "Poppins";
+}
 }
