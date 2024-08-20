@@ -1789,6 +1789,7 @@ p {
   width: 35px;
 }
 
+
 .foot {
   background-color: #009688;
   padding: 20px 10px;
@@ -1980,4 +1981,76 @@ left: 0px;
   color: #ffffff;
   font-family: "Poppins";
 }
+}
+footer {
+  background-image: url('https://i.postimg.cc/fT3qz0W6/Frame-789.png');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 20px;
+}
+
+.parent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 60px
+}
+
+.child {
+  flex: 1;
+  min-width: 200px;
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+}
+
+.child1,
+.child p {
+  margin: 5px 0;
+  text-align: start;
+  font-family: "Poppins";
+  font-weight: 12;
+  font-size: 13px;
+}
+
+.child img {
+  max-width: 100%;
+  height: auto;
+}
+
+.child1:first-child img {
+  margin-bottom: 20px; /* Ensure there's enough space after the image */
+}
+
+/* Ensuring all paragraphs start from the same line */
+.child p {
+  margin-top: 0; /* Reset margin-top */
+}
+
+.child1 p {
+  margin-top: 0; /* Reset margin-top */
+}
+.child1 a {
+  margin: 5px;
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+  .parent {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .child {
+    width: 100%;
+  }
+}
+
+/* Mobile-specific adjustments */
+@media (max-width: 480px) {
+  .child1 img {
+    max-width: 150px;
+  }
 }
