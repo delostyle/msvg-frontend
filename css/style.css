@@ -1843,3 +1843,41 @@ p {
     font-size: 16px;
   }
 }
+
+
+@media (max-width: 768px){
+  .w-customer {
+    color: #009688 !important;
+    font-size:24px !important;
+    text-align: left;
+    line-height: 29px;
+    font-weight: 500 !important;
+    z-index: 2;
+    /* text-align: left; */
+    /* position: relative; */
+    left: 0;
+}
+
+.quo {
+left: 0px;
+}
+.partnering {
+  font-size: 20px;
+  font-family: "Poppins";
+  font-weight: 700;
+  text-align: center;
+}
+.logo-image {
+  position: relative;
+  text-align: center;
+  top: 0px;
+}
+.image {
+  margin-top: 1.5rem;
+  /* border-radius: 50%; */
+  object-fit: cover;
+  width: 337px;
+  height: 309px;
+}
+
+}
