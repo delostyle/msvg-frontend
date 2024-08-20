@@ -323,8 +323,8 @@ margin-bottom: -160px;
   /* border: 1px solid green; */
 }
 .carousel .carousel-inner {
-  padding-bottom: 50px;
-z-index: 0;
+  padding-bottom: 0px;
+  z-index: 0;
   display: flex;
   justify-content: center;
 }
@@ -339,7 +339,7 @@ z-index: 0;
   display: flex;
   position: relative;
 
-  width: 200px;
+  width: 154px;
   height: 70px;
 }
 .carousel-control a {
