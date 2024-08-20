@@ -1980,4 +1980,42 @@ left: 0px;
   color: #ffffff;
   font-family: "Poppins";
 }
+.hero h2 {
+  line-height: 50px !important;
+  margin-right: 0px;
+  font-size: 28px !important;
+}
+
+.hero p {
+  font-size: 15px;
+  /* margin-bottom: 20px; */
+  line-height: 20px;
+  text-align: center;
+  font-family: Poppins;
+  color: white;
+  font-weight: 500;
+}
+
+.cta-button {
+  background-color: #009688;
+  color: #fff;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1em;
+  width: 310px;
+  font-family: Poppins;
+  height: 56px;
+  border: 1px solid #009688;
+}
+
+.services-section h2 {
+  font-size: 58px;
+  line-height: 86px;
+
+}
+.services-section h3 {
+  font-size: 25px;
+  color: #009688;
+}
 }
