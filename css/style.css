@@ -530,6 +530,7 @@ footer {
   margin-bottom: 10px;
   text-align: left;
   font-family: "Poppins";
+  font-weight: 700;
 }
 
 .service-box p {
@@ -2069,7 +2070,7 @@ left: 0px;
   color: white;
   border-radius: 5px;
   border: 1px solid;
-  width: 332px;
+  width: 310px;
   font-family: "Poppins";
   text-align: center;
   font-size: 18px;
@@ -2160,6 +2161,19 @@ left: 0px;
 }
 .success-section{
   width: 40vw;
+}
+.service-icon {
+  font-size: 2em;
+  color: #00bcd4;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.service-box h4 {
+  text-align: center;
+}
+.service-box p {
+  text-align: center;
+
 }
 header {
   background-color: #f8f8f8;
@@ -2295,4 +2309,8 @@ footer {
   font-weight: 500;
  }
 
+
+ .child1 img{
+  height: 31px;
+ }
 }
