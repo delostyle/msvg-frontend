@@ -2,17 +2,24 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   color: #fff;
 }
 
-header {
+
+/* header {
   background-color: #f3f3f3;
   padding: 20px;
   position: fixed;
   width: 100%;
   z-index: 2;
-}
+} */
+ header {
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ddd;
+    overflow: hidden; /* Prevent overflow issues */
+  }
+
 
 .footer-container {
   display: flex;
@@ -224,6 +231,8 @@ header {
   .hero p {
     font-size: 1em;
   }
+  
+  
 }
 
 .navbar {
@@ -1678,7 +1687,19 @@ p {
   .footer-section .row {
     text-align: center;
   }
+  
 }
+@media (min-width: 350px) and (max-width: 500px) {
+ 
+  .hero h2 {
+    margin-bottom: 20px !important;
+    color: #00e0b1 !important;
+    font-family: "Poppins" !important;
+    font-weight: 600 !important;
+    text-align: center !important;
+  }
+}
+
 .form-control {
   display: block;
   width: 100%;
@@ -1808,3 +1829,5 @@ p {
     font-size: 16px;
   }
 }
+
+
